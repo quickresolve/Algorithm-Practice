@@ -4,7 +4,7 @@
 # - minus
 # / slash
 # * asterisk
-# % percent
+# % modulus
 # < less-than
 # > greater-than
 # <= less-than-equal
@@ -13,6 +13,7 @@
 print "I will now count my chickens:"
 
 print "Hens", 25 + 30 / 6
+#Division of whole numbers will drop the fraction
 print "Roosters", 100 - 25 * 3 % 4
 
 print "Now I will count the eggs:"
@@ -33,3 +34,6 @@ print "How about some more."
 print "Is it greater?", 5 > -2
 print "Is it greater or equal?", 5 >= -2
 print "Is it less or equal?", 5 <= -2
+
+#Order of operations follows PEMDAS
+#Parentheses Exponents Multiplication Division Addition Subtraction
