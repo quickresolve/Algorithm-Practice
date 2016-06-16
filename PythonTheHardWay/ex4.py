@@ -13,5 +13,10 @@ print "There are", cars, "cars available."
 print "There are only", drivers, "drivers available."
 print "There will be", cars_not_driven, "empty cars today."
 print "We can transport", carpool_capacity, "people today."
+#A float multiplied by a whole number will produce a float.
 print "We have", passengers, "to carpool today."
 print "We need to put about", average_passengers_per_car, "in each car."
+
+
+#To pring without spaces between words use modulus %
+#ex: print "Hey %s there." % "you"
