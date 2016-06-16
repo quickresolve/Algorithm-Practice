@@ -12,3 +12,7 @@ With the three double-quotesself.
 We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6self.
 """
+
+# \n doesn't work whith %r, it will print it the way you wrote it
+
+# There cannot be spaces in the """
