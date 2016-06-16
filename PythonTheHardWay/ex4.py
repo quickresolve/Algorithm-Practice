@@ -18,5 +18,5 @@ print "We have", passengers, "to carpool today."
 print "We need to put about", average_passengers_per_car, "in each car."
 
 
-#To pring without spaces between words use modulus %
+#To print without spaces between words use modulus %
 #ex: print "Hey %s there." % "you"
